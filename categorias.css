@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css2?family=Baumans&display=swap');
+.CATEGORIAS {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .CATEGORIAS .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 412px;
+    height: 917px;
+  }
+  
+  .CATEGORIAS .overlap {
+    position: relative;
+    width: 690px;
+    height: 917px;
+    left: -172px;
+  }
+  
+  .CATEGORIAS .image {
+    position: absolute;
+    width: 412px;
+    height: 917px;
+    top: 0;
+    left: 172px;
+    object-fit: cover;
+    color: #007078;
+  }
+  
+  .CATEGORIAS .cuadro-categorias {
+    position: absolute;
+    width: 108px;
+    height: 128px;
+    top: 136px;
+    left: 314px;
+  }
+  
+  .CATEGORIAS .overlap-group {
+    position: relative;
+    width: 106px;
+    height: 128px;
+    background-color: #daccafcf;
+    border-radius: 10px;
+  }
+  
+  .CATEGORIAS .ecoturismo-cultural {
+    width: 92px;
+    top: 0;
+    left: 9px;
+    font-family: "Martel Sans", Helvetica;
+    color: #890c4e;
+    line-height: 26px;
+    position: absolute;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0;
+  }
+  
+  .CATEGORIAS .rectangle {
+    position: absolute;
+    width: 5px;
+    height: 115px;
+    top: 4px;
+    left: 92px;
+    background-color: #dbc9a2d6;
+    border-radius: 5px;
+  }
+  
+  .CATEGORIAS .div {
+    position: absolute;
+    width: 2px;
+    height: 23px;
+    top: 9px;
+    left: 93px;
+    background-color: #f6e0b1e0;
+    border-radius: 5px;
+  }
+  
+  .CATEGORIAS .IMAGEN-CENTRO {
+    position: absolute;
+    width: 690px;
+    height: 504px;
+    top: 309px;
+    left: 0;
+  }
+  
+  .CATEGORIAS .overlap-2 {
+    position: relative;
+    height: 504px;
+  }
+  
+  .CATEGORIAS .editada {
+    position: absolute;
+    width: 412px;
+    height: 385px;
+    top: 48px;
+    left: 172px;
+  }
+  
+  .CATEGORIAS .rectangle-2 {
+    position: absolute;
+    width: 687px;
+    height: 282px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(
+      180deg,
+      rgb(0, 112, 120) 34.5%,
+      rgba(115, 115, 115, 0) 100%
+    );
+  }
+  
+  .CATEGORIAS .rectangle-3 {
+    position: absolute;
+    width: 687px;
+    height: 282px;
+    top: 221px;
+    left: 3px;
+    background: linear-gradient(
+      180deg,
+      rgb(0, 112, 120) 22%,
+      rgba(115, 115, 115, 0) 100%
+    );
+  }
+  
+  .CATEGORIAS .categorias {
+    position: absolute;
+    width: 415px;
+    height: 462px;
+    top: 353px;
+    left: 176px;
+  }
+  
+  .CATEGORIAS .rectangle-4 {
+    position: absolute;
+    width: 107px;
+    height: 107px;
+    top: 82px;
+    left: 21px;
+    background-color: #04646b;
+    transform: rotate(-45.76deg);
+  }
+  
+  .CATEGORIAS .rectangle-5 {
+    position: absolute;
+    width: 107px;
+    height: 107px;
+    top: 252px;
+    left: 151px;
+    background-color: #04646b;
+    transform: rotate(-45.76deg);
+  }
+  
+  .CATEGORIAS .overlap-3 {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    top: 321px;
+    left: 272px;
+  }
+  
+  .CATEGORIAS .rectangle-6 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 17px;
+    left: 17px;
+    background-color: #04646b;
+    transform: rotate(-45.76deg);
+  }
+  
+  .CATEGORIAS .rectangle-7 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 24px;
+    left: 25px;
+    background-color: #023a3e;
+    transform: rotate(-45.76deg);
+  }
+  
+  .CATEGORIAS .overlap-4 {
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    top: 320px;
+    left: 19px;
+  }
+  
+  .CATEGORIAS .rectangle-8 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 25px;
+    left: 24px;
+    background-color: #023a3e;
+    transform: rotate(-45.76deg);
+  }
+  
+  .CATEGORIAS .rectangle-9 {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top: 17px;
+    left: 164px;
+    background-color: #04646b;
+    transform: rotate(-45.76deg);
+  }
+  
+  .CATEGORIAS .rectangle-10 {
+    position: absolute;
+    width: 107px;
+    height: 107px;
+    top: 82px;
+    left: 276px;
+    background-color: #04646b;
+    transform: rotate(-45.76deg);
+  }
+  
+  .CATEGORIAS .overlap-5 {
+    position: absolute;
+    width: 87px;
+    height: 23px;
+    top: 216px;
+    left: 34px;
+  }
+  
+  .CATEGORIAS .selecciona {
+    width: 82px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    background-color: #890c4ea6;
+    position: absolute;
+    border-radius: 40px;
+  }
+  
+  .CATEGORIAS .text-wrapper {
+    width: 76px;
+    top: 3px;
+    left: 11px;
+    font-family: "Baumans", Helvetica;
+    color: #ffffff;
+    line-height: normal;
+    position: absolute;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 0;
+  }
+  
+  .CATEGORIAS .overlap-6 {
+    position: absolute;
+    width: 89px;
+    height: 18px;
+    top: 122px;
+    left: 159px;
+  }
+  
+  .CATEGORIAS .selecciona-2 {
+    width: 89px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    background-color: #890c4ea6;
+    position: absolute;
+    border-radius: 40px;
+  }
+  
+  .CATEGORIAS .text-wrapper-2 {
+    position: absolute;
+    width: 76px;
+    top: 2px;
+    left: 7px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CATEGORIAS .overlap-7 {
+    position: absolute;
+    width: 89px;
+    height: 18px;
+    top: 215px;
+    left: 284px;
+  }
+  
+  .CATEGORIAS .text-wrapper-3 {
+    position: absolute;
+    width: 61px;
+    top: 2px;
+    left: 15px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CATEGORIAS .overlap-8 {
+    position: absolute;
+    width: 75px;
+    height: 18px;
+    top: 444px;
+    left: 292px;
+  }
+  
+  .CATEGORIAS .selecciona-3 {
+    width: 75px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    background-color: #890c4ea6;
+    position: absolute;
+    border-radius: 40px;
+  }
+  
+  .CATEGORIAS .text-wrapper-4 {
+    position: absolute;
+    width: 48px;
+    top: 2px;
+    left: 13px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CATEGORIAS .overlap-9 {
+    position: absolute;
+    width: 75px;
+    height: 18px;
+    top: 389px;
+    left: 167px;
+  }
+  
+  .CATEGORIAS .text-wrapper-5 {
+    position: absolute;
+    width: 45px;
+    top: 2px;
+    left: 15px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CATEGORIAS .overlap-10 {
+    position: absolute;
+    width: 75px;
+    height: 18px;
+    top: 444px;
+    left: 38px;
+  }
+  
+  .CATEGORIAS .text-wrapper-6 {
+    position: absolute;
+    width: 42px;
+    top: 2px;
+    left: 16px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CATEGORIAS .rectangle-11 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 378px;
+    left: 348px;
+    background-color: #023a3e;
+    transform: rotate(-45.76deg);
+  }
+  
+  .CATEGORIAS .rectangle-12 {
+    position: absolute;
+    width: 91px;
+    height: 91px;
+    top: 443px;
+    left: 206px;
+    background-color: #023a3e;
+    transform: rotate(-45.76deg);
+  }
+  
+  .CATEGORIAS .rectangle-13 {
+    position: absolute;
+    width: 91px;
+    height: 91px;
+    top: 443px;
+    left: 460px;
+    background-color: #023a3e;
+    transform: rotate(-45.76deg);
+  }
+  
+  .CATEGORIAS .rectangle-14 {
+    position: absolute;
+    width: 91px;
+    height: 91px;
+    top: 613px;
+    left: 334px;
+    background-color: #023a3e;
+    transform: rotate(-45.76deg);
+  }
+  
+  .CATEGORIAS .TEXTO-i {
+    position: absolute;
+    width: 238px;
+    height: 50px;
+    top: 284px;
+    left: 271px;
+  }
+  
+  .CATEGORIAS .text-wrapper-7 {
+    position: absolute;
+    width: 139px;
+    top: 0;
+    left: 48px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CATEGORIAS .text-wrapper-8 {
+    position: absolute;
+    width: 234px;
+    top: 33px;
+    left: 0;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #890c4e;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .CATEGORIAS .barra-busqueda {
+    position: absolute;
+    width: 367px;
+    height: 86px;
+    top: 50px;
+    left: 196px;
+  }
+  
+  .CATEGORIAS .overlap-11 {
+    position: absolute;
+    width: 363px;
+    height: 31px;
+    top: 55px;
+    left: 0;
+    background-color: #daccafd9;
+    border-radius: 40px;
+  }
+  
+  .CATEGORIAS .text-wrapper-9 {
+    position: absolute;
+    width: 111px;
+    top: 10px;
+    left: 5px;
+    font-family: "Martel Sans", Helvetica;
+    font-weight: 400;
+    color: #007078fa;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 11px;
+  }
+  
+  .CATEGORIAS .text-wrapper-10 {
+    position: absolute;
+    width: 115px;
+    top: 6px;
+    left: 130px;
+    font-family: "Martel Sans", Helvetica;
+    font-weight: 400;
+    color: #890c4e;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .CATEGORIAS .buscar {
+    position: absolute;
+    width: 78px;
+    height: 24px;
+    top: 4px;
+    left: 272px;
+  }
+  
+  .CATEGORIAS .div-wrapper {
+    position: relative;
+    width: 76px;
+    height: 24px;
+    background-color: #890c4e;
+    border-radius: 40px;
+  }
+  
+  .CATEGORIAS .text-wrapper-11 {
+    position: absolute;
+    width: 37px;
+    top: 5px;
+    left: 19px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #daccafd9;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .CATEGORIAS .rectangle-15 {
+    position: absolute;
+    width: 291px;
+    height: 22px;
+    top: 0;
+    left: 40px;
+    background-color: #daccafd9;
+    border-radius: 40px;
+  }
+  
+  .CATEGORIAS .barra-principal {
+    position: absolute;
+    width: 243px;
+    height: 74px;
+    top: 54px;
+    left: 259px;
+  }
+  
+  .CATEGORIAS .overlap-12 {
+    position: absolute;
+    width: 49px;
+    height: 12px;
+    top: 2px;
+    left: 0;
+    background-color: #890c4e3d;
+    border-radius: 40px;
+  }
+  
+  .CATEGORIAS .text-wrapper-12 {
+    position: absolute;
+    width: 36px;
+    top: 0px;
+    left: 13px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #890c4e;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .CATEGORIAS .selecciona-4 {
+    width: 112px;
+    height: 14px;
+    top: 60px;
+    left: 65px;
+    background-color: #890c4e3d;
+    position: absolute;
+    border-radius: 40px;
+  }
+  
+  .CATEGORIAS .text-wrapper-13 {
+    position: absolute;
+    width: 65px;
+    top: 1px;
+    left: 179px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #023a3e;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .CATEGORIAS .text-wrapper-14 {
+    position: absolute;
+    width: 58px;
+    top: 1px;
+    left: 179px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #023a3e;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .CATEGORIAS .colibri {
+    position: absolute;
+    width: 57px;
+    height: 59px;
+    top: 1px;
+    left: 527px;
+    object-fit: cover;
+  }
+  
+  .CATEGORIAS .image-removebg {
+    position: absolute;
+    width: 145px;
+    height: 29px;
+    top: 16px;
+    left: 180px;
+    object-fit: cover;
+  }
+  
+  .CATEGORIAS .iconCultura {
+    position: absolute;
+    width: 62px;
+    height: 59px;
+    top: 628px;
+    left: 348px;
+  }
+  
+  .CATEGORIAS .iconParque {
+    position: absolute;
+    width: 53px;
+    height: 44px;
+    top: 707px;
+    left: 479px;
+    object-fit: cover;
+  }
+
+  .CATEGORIAS .iconHospedaje {
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    top: 454px;
+    left: 473px;
+  }
+
+  .CATEGORIAS .iconEcoturismo {
+    position: absolute;
+    width: 65px;
+    height: 53.53px;
+    top: 458px;
+    left: 220px;
+  }
+  .CATEGORIAS .botonP {
+    position: absolute;
+    width: 53px;
+    height: 44px;
+    top: 707px;
+    left: 479px;
+    text-decoration: none; /* Quita el subrayado del enlace */
+  }
+  

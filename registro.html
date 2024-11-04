@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="registro.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Ruwudu:wght@400;500;600;700&display=swap');
+    </style>
+    <script type="module" src="firebaseconect.js"></script>
+  </head>
+  <body>
+    <div class="registro">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <img class="image" src="img/image 2.png" />
+          <div class="fondo">
+            <div class="overlap-group">
+              <img class="img" src="img/fond1.png" />
+              <div class="rectangle"></div>
+            </div>
+          </div>
+          <img class="colibri" src="img/Colibri 2.png" />
+          
+          <div class="bloque-registro">
+            <div class="rectangle-4"></div>
+            <div class="contrase-a">Contraseña</div>
+            <div class="olvid-su-contrase-a">¿Olvidó su contraseña?</div>
+            <div class="bienvenido-a-chiquinquir">Bienvenido a Chiquinquirá!</div>
+            
+            <div class="boton">
+              <div class="rectangle-1"></div>
+              <div class="iniciar-sesi-n"> Iniciar sesión</div>
+            </div>
+            
+            <button id="boton">Iniciar Sesion</button>
+
+            <!-- Cambiamos el texto "E-mail" por un input -->
+            <div class="e-mail">
+              <input type="email" placeholder="E-mail" class="email-input" />
+              <div class="line-1"></div>
+            </div>
+
+            <div class="line-2"></div>
+            <div class="continuar-con-google">
+              <span>
+                <span class="continuar-con-google-span">Continuar con</span>
+                <span class="continuar-con-google-span2">Google</span>
+              </span>
+            </div>
+          </div>
+          
+          <script>
+            const boton = document.getElementById('boton');
+            const container = document.getElementById('container');
+            let movingToRight = true;
+
+            boton.onclick = function() {
+              if (movingToRight) {
+                boton.style.left = `${container.offsetWidth - boton.offsetWidth}px`;
+              } else {
+                boton.style.left = `0px`;
+              }
+              movingToRight = !movingToRight;
+            };
+          </script>
+          <img class="image-removebg" src="img/logo.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

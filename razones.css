@@ -1,0 +1,588 @@
+.RAZONES {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .RAZONES .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 412px;
+    height: 917px;
+  }
+  
+  .RAZONES .overlap {
+    position: relative;
+    width: 676px;
+    height: 1002px;
+    top: -38px;
+    left: -67px;
+  }
+  
+  .RAZONES .fondo {
+    position: absolute;
+    width: 676px;
+    height: 1002px;
+    top: 0;
+    left: 0;
+  }
+  
+  .RAZONES .overlap-group {
+    position: relative;
+    width: 427px;
+    height: 917px;
+    top: 38px;
+    left: 60px;
+  }
+  
+  .RAZONES .image {
+    position: absolute;
+    width: 412px;
+    height: 917px;
+    top: 0;
+    left: 7px;
+    object-fit: cover;
+  }
+  
+  .RAZONES .editada {
+    position: absolute;
+    width: 412px;
+    height: 331px;
+    top: 0;
+    left: 7px;
+    object-fit: cover;
+  }
+  
+  .RAZONES .rectangle {
+    position: absolute;
+    width: 427px;
+    height: 333px;
+    top: 14px;
+    left: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(217, 217, 217, 0) 0%,
+      rgba(0, 112, 120, 0.98) 100%
+    );
+  }
+  
+  .RAZONES .colibri {
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    top: 38px;
+    left: 420px;
+    object-fit: cover;
+  }
+  
+  .RAZONES .rezones-general {
+    position: absolute;
+    width: 399px;
+    height: 655px;
+    top: 293px;
+    left: 73px;
+  }
+  
+  .RAZONES .div {
+    position: relative;
+    width: 408px;
+    height: 655px;
+  }
+  
+  .RAZONES .linea-razones {
+    position: absolute;
+    width: 368px;
+    height: 515px;
+    top: 0;
+    left: 40px;
+  }
+  
+  .RAZONES .line {
+    height: 30px;
+    top: 30px;
+    left: 160px;
+    position: absolute;
+    width: 1px;
+    object-fit: cover;
+  }
+  
+  .RAZONES .overlap-2 {
+    position: absolute;
+    width: 320px;
+    height: 118px;
+    top: 60px;
+    left: 0;
+  }
+  
+  .RAZONES .text-wrapper {
+    position: absolute;
+    width: 320px;
+    top: 27px;
+    left: 0;
+    font-family: "Ruwudu-Regular", Helvetica;
+    font-weight: 400;
+    color: #e5d8bcd4;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .RAZONES .text-wrapper-2 {
+    position: absolute;
+    width: 155px;
+    top: 0;
+    left: 82px;
+    font-family: "Baumans-Regular", Helvetica;
+    font-weight: 400;
+    color: #7b134a;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .RAZONES .text-wrapper-3 {
+    position: absolute;
+    width: 85px;
+    top: 0;
+    left: 117px;
+    font-family: "Martel Sans-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .RAZONES .overlap-3 {
+    position: absolute;
+    width: 202px;
+    height: 325px;
+    top: 190px;
+    left: 156px;
+  }
+  
+  .RAZONES .overlap-group-2 {
+    position: absolute;
+    width: 202px;
+    height: 324px;
+    top: 1px;
+    left: 0;
+  }
+  
+  .RAZONES .img {
+    height: 324px;
+    top: 0;
+    left: 4px;
+    position: absolute;
+    width: 1px;
+    object-fit: cover;
+  }
+  
+  .RAZONES .ellipse {
+    top: 16px;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 0;
+    background-color: #890c4e;
+    border-radius: 3.64px / 3.6px;
+  }
+  
+  .RAZONES .ellipse-2 {
+    top: 159px;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 0;
+    background-color: #890c4e;
+    border-radius: 3.64px / 3.6px;
+  }
+  
+  .RAZONES .ellipse-3 {
+    top: 84px;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 0;
+    background-color: #890c4e;
+    border-radius: 3.64px / 3.6px;
+  }
+  
+  .RAZONES .ellipse-4 {
+    top: 303px;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 0;
+    background-color: #890c4e;
+    border-radius: 3.64px / 3.6px;
+  }
+  
+  .RAZONES .ellipse-5 {
+    top: 236px;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 0;
+    background-color: #890c4e;
+    border-radius: 3.64px / 3.6px;
+  }
+  
+  .RAZONES .p {
+    position: absolute;
+    width: 196px;
+    top: 73px;
+    left: 6px;
+    font-family: "Martel Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 11px;
+  }
+  
+  .RAZONES .text-wrapper-4 {
+    position: absolute;
+    width: 163px;
+    top: 0;
+    left: 10px;
+    font-family: "Martel Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 11px;
+  }
+  
+  .RAZONES .imagenes {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    top: 155px;
+    left: 12px;
+    transform: rotate(180deg);
+  }
+  
+  .RAZONES .overlap-4 {
+    position: relative;
+    height: 175px;
+  }
+  
+  .RAZONES .rectangle-2 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    top: 19px;
+    left: 19px;
+    transform: rotate(-180deg);
+  }
+  
+  .RAZONES .rectangle-3 {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    top: 15px;
+    left: 15px;
+    background-color: #007078;
+    transform: rotate(-315.00deg);
+  }
+  
+  .RAZONES .rectangle-4 {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    top: 8px;
+    left: 9px;
+    transform: rotate(-180deg);
+  }
+  
+  .RAZONES .overlap-group-wrapper {
+    position: absolute;
+    width: 176px;
+    height: 176px;
+    top: 311px;
+    left: 223px;
+  }
+  
+  .RAZONES .overlap-5 {
+    position: relative;
+    height: 176px;
+  }
+  
+  .RAZONES .rectangle-5 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    top: 0;
+    left: 19px;
+  }
+  
+  .RAZONES .rectangle-6 {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    top: 89px;
+    left: 15px;
+    background-color: #007078;
+    transform: rotate(-45.00deg);
+  }
+  
+  .RAZONES .rectangle-7 {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    top: 83px;
+    left: 9px;
+  }
+  
+  .RAZONES .rectangle-8 {
+    position: absolute;
+    width: 91px;
+    height: 91px;
+    top: 564px;
+    left: 234px;
+  }
+  
+  .RAZONES .texto-razones {
+    position: absolute;
+    width: 405px;
+    height: 195px;
+    top: 339px;
+    left: 0;
+  }
+  
+  .RAZONES .rodeada-de-paisajes {
+    position: absolute;
+    width: 195px;
+    top: 0;
+    left: 0;
+    font-family: "Martel Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 11px;
+  }
+  
+  .RAZONES .text-wrapper-5 {
+    position: absolute;
+    width: 198px;
+    top: 83px;
+    left: 1px;
+    font-family: "Martel Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 11px;
+  }
+  
+  .RAZONES .chiquinquir-cuenta {
+    position: absolute;
+    width: 197px;
+    top: 154px;
+    left: 202px;
+    font-family: "Martel Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 11px;
+  }
+  
+  .RAZONES .imagenes-wrapper {
+    position: absolute;
+    width: 378px;
+    height: 503px;
+    top: 116px;
+    left: 10px;
+  }
+  
+  .RAZONES .imagenes-2 {
+    position: relative;
+    height: 503px;
+  }
+  
+  .RAZONES .overlap-group-3 {
+    position: absolute;
+    width: 153px;
+    height: 144px;
+    top: 359px;
+    left: 0;
+  }
+  
+  .RAZONES .rectangle-9 {
+    position: absolute;
+    width: 69px;
+    height: 69px;
+    top: 75px;
+    left: 84px;
+  }
+  
+  .RAZONES .rectangle-10 {
+    position: absolute;
+    width: 119px;
+    height: 119px;
+    top: 0;
+    left: 0;
+  }
+  
+  .RAZONES .rectangle-11 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 0;
+    left: 313px;
+  }
+  
+  .RAZONES .barra-busqueda {
+    position: absolute;
+    width: 367px;
+    height: 31px;
+    top: 143px;
+    left: 91px;
+  }
+  
+  .RAZONES .overlap-6 {
+    position: relative;
+    width: 363px;
+    height: 31px;
+    background-color: #daccafd9;
+    border-radius: 40px;
+  }
+  
+  .RAZONES .text-wrapper-6 {
+    position: absolute;
+    width: 111px;
+    top: 6px;
+    left: 5px;
+    font-family: "Martel Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #007078fa;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 11px;
+  }
+  
+  .RAZONES .text-wrapper-7 {
+    position: absolute;
+    width: 115px;
+    top: 5px;
+    left: 124px;
+    font-family: "Martel Sans-Regular", Helvetica;
+    font-weight: 400;
+    color: #007078fa;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .RAZONES .buscar {
+    position: absolute;
+    width: 78px;
+    height: 24px;
+    top: 4px;
+    left: 272px;
+  }
+  
+  .RAZONES .div-wrapper {
+    position: relative;
+    width: 76px;
+    height: 24px;
+    background-color: #890c4e;
+    border-radius: 40px;
+  }
+  
+  .RAZONES .text-wrapper-8 {
+    position: absolute;
+    width: 37px;
+    top: 5px;
+    left: 19px;
+    font-family: "Baumans-Regular", Helvetica;
+    font-weight: 400;
+    color: #daccafd9;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .RAZONES .barra-principal {
+    position: absolute;
+    width: 243px;
+    height: 12px;
+    top: 91px;
+    left: 151px;
+  }
+  
+  .RAZONES .overlap-7 {
+    position: absolute;
+    width: 49px;
+    height: 12px;
+    top: 0;
+    left: 0;
+    background-color: #890c4e3d;
+    border-radius: 40px;
+  }
+  
+  .RAZONES .text-wrapper-9 {
+    position: absolute;
+    width: 36px;
+    top: 1px;
+    left: 13px;
+    font-family: "Baumans-Regular", Helvetica;
+    font-weight: 400;
+    color: #890c4e;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .RAZONES .text-wrapper-10 {
+    position: absolute;
+    width: 65px;
+    top: 1px;
+    left: 90px;
+    font-family: "Baumans-Regular", Helvetica;
+    font-weight: 400;
+    color: #023a3e;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .RAZONES .text-wrapper-11 {
+    position: absolute;
+    width: 58px;
+    top: 1px;
+    left: 179px;
+    font-family: "Baumans-Regular", Helvetica;
+    font-weight: 400;
+    color: #023a3e;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .RAZONES .image-removebg {
+    position: absolute;
+    width: 154px;
+    height: 31px;
+    top: 52px;
+    left: 74px;
+    object-fit: cover;
+  }
+  

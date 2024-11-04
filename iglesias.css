@@ -1,0 +1,581 @@
+.body{
+  width: 100%;
+  height: 100vh;
+}
+.iglesias {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .iglesias .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 412px;
+    height: 2551px;
+  }
+  
+  .iglesias .overlap {
+    position: relative;
+    width: 100%;
+    max-width: 433px;
+    height: 100%;
+    max-height: 5018px;
+    left: -14px;
+}
+  
+.iglesias .overlap-group {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  background-image: url(./img/fond2.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px; /* Ajusta esta altura mínima según tu diseño */
+}
+  
+  .iglesias .overlap-group {
+    position: relative;
+    width: 412px;
+    height: 2551px;
+    left: 14px;
+    background-image: url(./img/fond2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .iglesias .barra-busqueda {
+    position: relative;
+    width: 328px;
+    height: 1298px;
+    top: 596px;
+    left: 15px;
+  }
+  
+  .iglesias .rectangle {
+    position: absolute;
+    width: 291px;
+    height: 317px;
+    top: 2094px;
+    left: 727px;
+  }
+  
+  .iglesias .text-wrapper {
+    position: absolute;
+    width: 111px;
+    top: 1053px;
+    left: 0;
+    font-family: "Martel Sans", Helvetica;
+    font-weight: 400;
+    color: #007078fa;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 11px;
+  }
+  
+  .iglesias .fotos {
+    position: absolute;
+    width: 319px;
+    height: 367px;
+    top: 550px;
+    left: 61px;
+  }
+  
+  .iglesias .iglesia {
+    position: absolute;
+    width: 319px;
+    height: 100px;
+    top: 267px;
+    left: 0;
+  }
+  
+  .iglesias .editada {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    top: 2094px;
+    left: 907px;
+    object-fit: cover;
+  }
+  
+  .iglesias .logo {
+    position: absolute;
+    width: 178px;
+    height: 34px;
+    top: 14px;
+    left: 28px;
+    object-fit: cover;
+  }
+  
+  .iglesias .barra-principal {
+    position: absolute;
+    width: 364px;
+    height: 66px;
+    top: 55px;
+    left: 41px;
+  }
+  
+  .iglesias .div {
+    position: absolute;
+    width: 358px;
+    height: 27px;
+    top: 0;
+    left: 0;
+    background-color: #daccafd9;
+    border-radius: 40px;
+  }
+  
+  .iglesias .overlap-2 {
+    position: absolute;
+    width: 67px;
+    height: 22px;
+    top: 2px;
+    left: 19px;
+    border-radius: 40px;
+  }
+  
+  .iglesias .text-wrapper-2 {
+    position: absolute;
+    width: 49px;
+    top: 1px;
+    left: 16px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #890c4e;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .iglesias .selecciona {
+    position: absolute;
+    width: 67px;
+    height: 22px;
+    top: 0;
+    left: 0;
+    background-color: #890c4e3d;
+    border-radius: 40px;
+  }
+  
+  .iglesias .text-wrapper-3 {
+    position: absolute;
+    width: 97px;
+    top: 2px;
+    left: 125px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #023a3e;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .iglesias .text-wrapper-4 {
+    position: absolute;
+    width: 79px;
+    top: 2px;
+    left: 260px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #023a3e;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .iglesias .nombre {
+    position: absolute;
+    width: 205px;
+    height: 31px;
+    top: 35px;
+    left: 96px;
+  }
+  
+  .iglesias .overlap-group-2 {
+    position: relative;
+    width: 203px;
+    height: 31px;
+  }
+  
+  .iglesias .selecciona-2 {
+    position: absolute;
+    width: 187px;
+    height: 31px;
+    top: 0;
+    left: 0;
+    background-color: #023a3e;
+    border-radius: 40px;
+  }
+  
+  .iglesias .text-wrapper-5 {
+    position: absolute;
+    width: 139px;
+    top: 1px;
+    left: 63px;
+    font-family: "Ruwudu", Helvetica;
+    font-weight: 400;
+    color: #daccaf;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .iglesias .mapa {
+    position: absolute;
+    width: 412px;
+    height: 300px;
+    top: 156px;
+    left: 14px;
+    object-fit: cover;
+  }
+  
+  .iglesias .overlap-group-wrapper {
+    position: absolute;
+    width: 358px;
+    height: 298px;
+    top: 488px;
+    left: 41px;
+  }
+  
+  .iglesias .overlap-3 {
+    position: relative;
+    width: 354px;
+    height: 298px;
+    left: 2px;
+  }
+  
+  .iglesias .rectangle-2 {
+    position: absolute;
+    width: 352px;
+    height: 296px;
+    top: 1px;
+    left: 1px;
+    background-color: #023a3e;
+    transform: rotate(-0.38deg);
+  }
+  
+  .iglesias .img {
+    position: absolute;
+    width: 232px;
+    height: 44px;
+    top: 728px;
+    left: 110px;
+    background-color: #890c4e;
+    border-radius: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .iglesias .image {
+    position: absolute;
+    width: 410px;
+    height: 670px;
+    top: 817px;
+    left: 14px;
+  }
+  
+  .iglesias .barra-busqueda-2 {
+    position: absolute;
+    width: 291px;
+    height: 11px;
+    top: 361px;
+    left: 85px;
+  }
+  
+  .iglesias .div-wrapper {
+    position: absolute;
+    width: 366px;
+    height: 299px;
+    top: 1174px;
+    left: 35px;
+  }
+  
+  .iglesias .overlap-4 {
+    position: relative;
+    width: 353px;
+    height: 299px;
+    left: 5px;
+  }
+  
+  .iglesias .rectangle-3 {
+    position: absolute;
+    height: 298px;
+    left: 1px;
+    transform: rotate(-0.19deg);
+    width: 352px;
+    top: 1px;
+    background-color: #023a3e;
+  }
+  
+  .iglesias .selecciona-3 {
+    position: absolute;
+    top: 241px;
+    left: 61px;
+    width: 100%;
+    height: 100%;
+    background-color: #890c4e;
+    border-radius: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .iglesias .p {
+    position: absolute;
+    width: 173px;
+    top: 241px;
+    left: 90px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .iglesias .iglesia-2 {
+    position: absolute;
+    width: 369px;
+    height: 293px;
+    top: 817px;
+    left: 30px;
+  }
+  
+  .iglesias .selecciona-wrapper {
+    position: relative;
+    width: 356px;
+    height: 293px;
+    left: 6px;
+    background-color: #023a3e;
+  }
+  
+  .iglesias .selecciona-4 {
+    position: absolute;
+    width: 232px;
+    height: 43px;
+    top: 236px;
+    left: 69px;
+  }
+  
+  .iglesias .iglesia-3 {
+    top: 1858px;
+    position: absolute;
+    width: 358px;
+    height: 298px;
+    left: 41px;
+  }
+  
+  .iglesias .iglesia-4 {
+    position: absolute;
+    width: 360px;
+    height: 298px;
+    top: 1518px;
+    left: 38px;
+  }
+  
+  .iglesias .text-wrapper-6 {
+    position: absolute;
+    width: 173px;
+    top: 247px;
+    left: 91px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .iglesias .rectangle-wrapper {
+    top: 2211px;
+    position: absolute;
+    width: 358px;
+    height: 298px;
+    left: 41px;
+  }
+  
+  .iglesias .rectangle-4 {
+    position: relative;
+    height: 296px;
+    left: 3px;
+    transform: rotate(-0.38deg);
+    width: 352px;
+    top: 1px;
+    background-color: #023a3e;
+  }
+  
+  .iglesias .text-wrapper-7 {
+    position: absolute;
+    width: 193px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .iglesias .text-wrapper-8 {
+    position: absolute;
+    width: 173px;
+    top: 1054px;
+    left: 131px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .iglesias .text-wrapper-9 {
+    position: absolute;
+    width: 203px;
+    top: 2097px;
+    left: 118px;
+    font-family: "Baumans", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .iglesias .editada-2 {
+    position: absolute;
+    width: 319px;
+    height: 212px;
+    top: 503px;
+    left: 60px;
+    object-fit: cover;
+  }
+  
+  .iglesias .whatsapp-image {
+    top: 732px;
+    position: absolute;
+    width: 37px;
+    height: 35px;
+    left: 48px;
+  }
+  
+  .iglesias .IMG {
+    position: absolute;
+    width: 320px;
+    height: 200px;
+    top: 840px;
+    left: 60px;
+    object-fit: cover;
+  }
+  
+  .iglesias .whatsapp-image-2 {
+    top: 1053px;
+    position: absolute;
+    width: 37px;
+    height: 35px;
+    left: 48px;
+  }
+  
+  .iglesias .editada-3 {
+    position: absolute;
+    width: 320px;
+    height: 209px;
+    top: 1195px;
+    left: 60px;
+  }
+  
+  .iglesias .whatsapp-image-3 {
+    top: 1419px;
+    position: absolute;
+    width: 37px;
+    height: 35px;
+    left: 48px;
+  }
+  
+  .iglesias .whatsapp-image-4 {
+    position: absolute;
+    width: 313px;
+    height: 209px;
+    top: 1542px;
+    left: 63px;
+    object-fit: cover;
+  }
+  
+  .iglesias .whatsapp-image-5 {
+    top: 1758px;
+    position: absolute;
+    width: 37px;
+    height: 35px;
+    left: 48px;
+  }
+  
+  .iglesias .whatsapp-image-6 {
+    position: absolute;
+    width: 320px;
+    height: 201px;
+    top: 1882px;
+    left: 60px;
+    object-fit: cover;
+  }
+  
+  .iglesias .whatsapp-image-7 {
+    position: absolute;
+    width: 37px;
+    height: 35px;
+    top: 2098px;
+    left: 48px;
+  }
+  
+  .iglesias .div-wrapper-1 {
+    width: 100%;
+    height: 100%;
+    top: 7400px;
+    left: 120px;
+    background-color: #890c4e;
+    border-radius: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .iglesias .boton {
+    position: absolute;
+    width: 232px;
+    height: 44px;
+    text-decoration: none; /* Quita el subrayado del enlace */
+  }
+
+  .iglesias .selecciona-mapa {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 40%;
+    background-color: #033B3F;
+    border-radius: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .iglesias .modulo-principal {
+    position: absolute;
+    width: 100%;
+    max-width: 433px;
+    height: 100%;
+    max-height: 5018px;
+    top: 0;
+    left: 0;
+}
+

@@ -1,0 +1,349 @@
+.registro {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .registro .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    max-width: 412px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .registro .overlap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .registro .image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .registro .fondo {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .registro .overlap-group {
+    position: relative;
+    max-width: 680px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .registro .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .registro .rectangle {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background: linear-gradient(
+      180deg,
+      rgba(218, 204, 175, 0.2) 55.5%,
+      rgba(0, 112, 120, 0.98) 90%
+    );
+    position: absolute;
+    top: 0;
+  }
+  
+  .registro .bloque-registro {
+    position: absolute;
+    width: 360px;
+    height: 440px;
+    display: flex;
+    align-items: center;
+    left: 27.5px;
+    bottom: 30px;
+  }
+
+    /*.bloque-registro,
+    .bloque-registro * {
+    box-sizing: border-box;
+    }
+    .bloque-registro {
+    position: relative;
+    }*/
+    .rectangle-4 {
+    background: #05646b;
+    border-radius: 50px;
+    width: 100%;
+    height: 430.94px;
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    top: 0px;
+    }
+    .contrase-a {
+    color: #033b3f;
+    text-align: left;
+    font-family: "MartelSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    right: 46.56%;
+    left: 6.33%;
+    width: 47.1%;
+    top: 183px;
+    height: 20.13px;
+    }
+    .olvid-su-contrase-a {
+    color: #daccaf;
+    text-align: center;
+    font-family: "MartelSans-Regular", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    position: absolute;
+    right: 13.55%;
+    left: 13.77%;
+    width: 72.68%;
+    top: 394px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .bienvenido-a-chiquinquir {
+    color: #daccaf;
+    text-align: left;
+    /*font-family: "Ruwudu-Regular", sans-serif;*/
+    font-size: 26px;
+    font-weight: 400;
+    position: absolute;
+    /*right: 7.22%;*/
+    left: 10.2%;
+    width: 85.62%;
+    top: 86px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    }
+    /*.boton {
+    width: 316.57px;
+    height: 61.39px;
+    position: static;
+    }*/
+    .rectangle-1 {
+    background: #890c4e;
+    border-radius: 67px;
+    width: 87.15%;
+    height: 61.39px;
+    position: absolute;
+    right: 5.29%;
+    left: 7.56%;
+    top: 321.15px;
+    }
+    .iniciar-sesi-n {
+    color: #daccaf;
+    text-align: left;
+    font-family: "MartelSans-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 30%;
+    top: 338px;
+    width: 184px;
+    height: 43px;
+    }
+    /*.boton2 {
+    width: 318.54px;
+    height: 61.39px;
+    position: static;
+    }*/
+    .rectangle-12 {
+    background: #daccaf;
+    border-radius: 67px;
+    width: 87.15%;
+    height: 61.39px;
+    position: absolute;
+    right: 6.8%;
+    left: 6.05%;
+    top: 13.72px;
+    }
+    .registrarse {
+    color: #890c4e;
+    text-align: left;
+    font-family: "MartelSans-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 6.26%;
+    left: 51.39%;
+    width: 42.36%;
+    top: 27.45px;
+    height: 42.9px;
+    }
+    /*.boton3 {
+    width: 172.28px;
+    height: 61.39px;
+    position: static;
+    }*/
+    .rectangle-13 {
+    background: #890c4e;
+    border-radius: 67px;
+    width: 46.75%;
+    height: 61.39px;
+    position: absolute;
+    right: 48.72%;
+    left: 4.53%;
+    top: 13.72px;
+    }
+    .iniciar-sesi-n2 {
+    color: #daccaf;
+    text-align: left;
+    font-family: "MartelSans-Regular", sans-serif;
+    text-align: left;
+    font-family: "MartelSans-Regular", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    right: 6.26%;
+    left: 6.4%;
+    width: 42.36%;
+    top: 28px;
+    height: 42.9px;
+    }
+    .e-mail {
+    width: 269.91px;
+    height: 28.36px;
+    position: static;
+    }
+    .line-1 {
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #033b3f;
+    border-width: 1px 0 0 0;
+    width: 74.31%;
+    height: 0px;
+    position: absolute;
+    right: 19.64%;
+    left: 6.06%;
+    top: 161.36px;
+    }
+    .e-mail2 {
+    color: #033b3f;
+    text-align: left;
+    font-family: "MartelSans-Regular", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    right: 46.84%;
+    left: 6.06%;
+    width: 47.1%;
+    top: 133px;
+    height: 20.13px;
+    }
+    .line-2 {
+    margin-top: -1px;
+    border-style: solid;
+    border-color: #033b3f;
+    border-width: 1px 0 0 0;
+    width: 74.31%;
+    height: 0px;
+    position: absolute;
+    right: 21.29%;
+    left: 4.4%;
+    top: 215px;
+    transform-origin: 0 0;
+    transform: rotate(0deg) scale(1, 1);
+    }
+    .continuar-con-google {
+    text-align: left;
+    font-family: "MartelSans-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    right: 20.64%;
+    left: 6.06%;
+    width: 73.3%;
+    top: 247px;
+    height: 20.13px;
+    }
+    .continuar-con-google-span {
+    color: #033b3f;
+    font-family: "MartelSans-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    }
+    .continuar-con-google-span2 {
+    color: #890c4e;
+    font-family: "MartelSans-Regular", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+    }
+
+
+  .registro .colibri {
+    position: absolute;
+    width: 91px;
+    height: 91px;
+    top: 0%;
+    left: 66%;
+    object-fit: cover;
+  }
+  
+  .registro .image-removebg {
+    position: absolute;
+    width: 50%;
+    max-width: 385px;
+    height: auto;
+    top: 4%;
+    left: 46%;
+    transform: translateX(-50%);
+    object-fit: cover;
+  }
+
+  .email-input {
+    width: 74.31%;
+    height: 28px;
+    border: none;
+    border-bottom: 1px solid #033b3f;
+    background: transparent;
+    font-family: "MartelSans-Regular", sans-serif;
+    font-size: 18px;
+    color: #033b3f;
+    position: absolute;
+    left: 6.06%;
+    top: 133px;
+    padding: 0;
+  }
+  
+  .email-input::placeholder {
+    color: #033b3f;
+    opacity: 0.6;
+  }
+  
+  .line-1 {
+    position: absolute;
+    width: 74.31%;
+    border: none;
+    height: 1px;
+    background-color: #033b3f;
+    top: 161.36px;
+    left: 6.06%;
+  }
+  
