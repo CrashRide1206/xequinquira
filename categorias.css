@@ -637,7 +637,7 @@
     width: 53px;
     height: 44px;
     top: 707px;
-    left: 479px;
+    left: 225px;
     object-fit: cover;
   }
 
@@ -656,12 +656,21 @@
     top: 458px;
     left: 220px;
   }
+
+  .CATEGORIAS .iconGastronomia {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 390px;
+    left: 357.5px;
+  }
+
   .CATEGORIAS .botonP {
     position: absolute;
     width: 53px;
     height: 44px;
     top: 707px;
-    left: 479px;
+    left: 482px;
     text-decoration: none; /* Quita el subrayado del enlace */
   }
   
